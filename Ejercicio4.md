@@ -17,20 +17,21 @@ $$
 c. Transformada de:
 
 $$
-H(z) = \frac{1}{(1-2z^{-1})(1-z^{-1})^2} \\
-= \frac{1}{1}
+H(z) = \frac{1}{(1-2z^{-1})(1-z^{-1})^2} 
 $$
 
 Por fracciones parciales:
 
 $$
-H(z) = \frac{4}{1-2z^{-1}} + \frac{-3}{1-z^{-1}} + \frac{z^{-1}}{(1-z^{-1})^2}
+ = \frac{A}{1-2z^{-1}} + \frac{B}{1-z^{-1}} + \frac{C}{(1-z^{-1})^2}
 $$
 
-Convirtiendo:
+donde $A = 1$, $B = -5$ y $C = -1$ 
+
+Convertiendo:
 
 $$
-h[n] = 4 \times 2^nu[n] - 3 u[n] + nu[n]
+h[n] = 2^nu[n] - 5 u[n] - nu[n]
 $$
 
 d. $x[n] = r^n \sin(\omega_0 n)u[n]$
